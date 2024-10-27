@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <form onsubmit="handleFormSubmit(event)">
+    <label for="title">Website title</label>
+    <input type="text" name="title" id="title" />
+    <label for="url">Website URL</label>
+    <input type="text" name="url" id="url" />
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>All bookmarks</h2>
+  <ul class="uList"></ul>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+<script src="codes.js"></script>
+
+</html>
